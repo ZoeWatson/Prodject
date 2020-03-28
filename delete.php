@@ -5,10 +5,10 @@
 Sin: <input type="text" name="E_SIN"><br>
 <input type="submit">
 </form>
-  
+
 <?php
 $sql = "DELETE FROM Employee WHERE E_SIN=$E_SIN";
-?>
+?>  
 
 <h2>delete Schedule Event</h2>
 <form action="welcome_get.php" method="get">

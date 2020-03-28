@@ -13,7 +13,7 @@ E-mail: <input type="text" name="E_address"><br>
 $sql = "INSERT INTO Employee (E_SIN,E_Name, E_phoneNum,E_address)
 VALUES ($E_SIN, $E_Name, $E_phoneNum, $E_address)";
 ?>
-
+  
 <h2>Adding Schedule Event</h2>
 <form action="welcome_get.php" method="get">
 Year: <input type="text" name="Year"><br>
